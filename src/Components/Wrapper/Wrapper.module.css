@@ -1,0 +1,13 @@
+.section {
+  width: 400;
+  width: 100%;
+  margin: 0px auto;
+  border: 3px solid red;
+}
+.section .wpp {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 15px;
+}/*# sourceMappingURL=Wrapper.module.css.map */

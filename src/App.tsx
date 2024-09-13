@@ -1,17 +1,15 @@
-import './App.scss'
-import Wrapper from './Components/Wrapper/Wrapper'
+import "./App.scss";
+import Wrapper from "./Components/Wrapper/Wrapper";
+import StorageTransactions from "./Hooks/UseTransactions";
 
 function App() {
-  
-
-  
-
   return (
     <>
-    <Wrapper/>
-     
+      <StorageTransactions>
+        <Wrapper />
+      </StorageTransactions>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

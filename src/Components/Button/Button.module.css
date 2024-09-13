@@ -1,0 +1,11 @@
+.button {
+  font-size: 17px;
+  font-weight: 700;
+  display: block;
+  background-color: #EAB308;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 6px;
+  border: none;
+}/*# sourceMappingURL=Button.module.css.map */

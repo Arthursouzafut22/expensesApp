@@ -1,0 +1,39 @@
+.wrapper {
+  border: 1px solid;
+  flex: 1;
+}
+.wrapper .sald {
+  margin: 0;
+}
+.wrapper span {
+  font-size: 30px;
+  font-weight: 700;
+  color: blue;
+  margin-top: 0;
+  display: block;
+}
+.wrapper .balance {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  justify-content: center;
+  border: 1px solid;
+  flex: 1;
+  margin-top: 5px;
+  padding: 18px;
+  box-shadow: 2px 5px 9px 2px rgba(204, 204, 204, 0.37);
+}
+.wrapper .balance .rec p {
+  margin: 0;
+}
+.wrapper .balance .rec :last-child {
+  font-weight: 700;
+  color: yellowgreen;
+}
+.wrapper .balance .des p {
+  margin: 0;
+}
+.wrapper .balance .des :last-child {
+  font-weight: 700;
+  color: red;
+}/*# sourceMappingURL=Balance.module.css.map */

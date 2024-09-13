@@ -3,7 +3,6 @@ import React from "react";
 import Balance from "../Balance/Balance";
 import Transactions from "../Transactions/Transactions";
 import NewAddTransactions from "../NewsAddTransactions/NewAddTransactions";
-import Button from "../Button/Button";
 
 const styleWrapper = { margin: "10px 0px", fontWeight: "bold" };
 
@@ -17,7 +16,6 @@ const Wrapper: React.FC = () => {
         <Transactions />
         <p style={styleWrapper}>Adicionar transação</p>
         <NewAddTransactions />
-        <Button>Adicionar</Button>
       </div>
     </section>
   );
