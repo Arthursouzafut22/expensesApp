@@ -113,7 +113,7 @@ const StorageTransactions = ({ children }: elementProps) => {
     };
 
     if (form.nome === "" || form.valor === "") {
-      handleError("Prencha os campo!");
+      handleError("Preencha os campo!");
       return;
     } else {
       setErro({ erro: null });

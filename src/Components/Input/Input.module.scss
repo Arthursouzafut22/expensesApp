@@ -10,8 +10,10 @@ input {
   padding: 0.625rem;
   margin-bottom: 8px;
   outline: 2px solid transparent;
+  border-radius: 0.19rem;
+  border: 2px solid #4731b3;
 
   &:focus {
-    outline: 2px solid #4731b3;
+    outline: 1px solid #4731b3;
   }
 }
