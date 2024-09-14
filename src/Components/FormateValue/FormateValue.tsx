@@ -1,9 +1,9 @@
 const FormatePrice = (price: number) => {
-  return new Intl.NumberFormat("Pt-BR", {
+  return new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",
+    minimumFractionDigits: 2,
     maximumFractionDigits: 2,
-    maximumSignificantDigits: 2,
   }).format(price);
 };
 

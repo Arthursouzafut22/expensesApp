@@ -8,8 +8,9 @@ const NewAddTransactions = () => {
   const context = useContext(ContextTransition);
 
   if (!context) {
-    return; // Tratamento de erro se o contexto estiver indefinido
+    return;
   }
+
   const { form, changeValue, onSubmitTransactions, erro } = context;
   return (
     <>
@@ -23,8 +24,18 @@ const NewAddTransactions = () => {
           name="nome"
           id="name"
         />
+        <label htmlFor="Valor">Valor</label>
+        <p
+          style={{
+            fontSize: "0.88rem",
+            textAlign: "left",
+            marginBottom: " 0.25rem",
+          }}
+        >
+          (Negativo- despesas,positivo - receitas)
+        </p>
         <Input
-          label="Valor"
+          label=""
           type="number"
           placeholder="Valor da transação"
           onChange={changeValue}
@@ -32,7 +43,9 @@ const NewAddTransactions = () => {
           name="valor"
           id="Valor"
         />
-        {erro && <p style={{ color: "red", fontSize: "13px" }}>{erro.erro}</p>}
+        {erro && (
+          <p style={{ color: "red", fontSize: "0.81rem" }}>{erro.erro}</p>
+        )}
         <Button>Adicionar</Button>
       </form>
     </>

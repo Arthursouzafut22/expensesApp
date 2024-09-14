@@ -1,9 +1,10 @@
 .button {
-  font-size: 17px;
+  font-size: 1.06rem;
   font-weight: 700;
   display: block;
-  background-color: #EAB308;
-  padding: 8px;
+  color: #ffffff;
+  background-color: #4731b3;
+  padding: 0.625rem 0.5rem;
   width: 100%;
   cursor: pointer;
   margin-top: 6px;

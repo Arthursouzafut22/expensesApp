@@ -4,13 +4,11 @@ import { useContext } from "react";
 import FormatePrice from "../FormateValue/FormateValue";
 
 const Balance: React.FC = () => {
-
   const context = useContext(ContextTransition);
 
-  if(!context) return
+  if (!context) return;
 
-  const { total,positivos, negativos } = context
-
+  const { total, positivos, negativos } = context;
 
   return (
     <div className={styles.wrapper}>
@@ -19,7 +17,7 @@ const Balance: React.FC = () => {
       <div className={styles.balance}>
         <div className={styles.rec}>
           <p>RECEITAS</p>
-          <p>{FormatePrice(positivos.positivos)}</p>
+          <p>{FormatePrice(positivos?.positivos)}</p>
         </div>
         <div className={styles.des}>
           <p>DESPESAS</p>
